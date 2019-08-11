@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.osornet.estudioandroidudemy.R;
 
@@ -42,6 +43,7 @@ public class BlankFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
+        Toast.makeText(getActivity(), "Mensaje desde activity", Toast.LENGTH_LONG);
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
