@@ -11,7 +11,7 @@
         android:id="@+id/etEmail"
 
         style="@style/input"
-        android:hint="emal"
+        android:hint="email"
         android:inputType="text"
 
         android:layout_width="match_parent"
